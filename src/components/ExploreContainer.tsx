@@ -4,7 +4,7 @@ interface ContainerProps {
   name: string;
 }
 
-const ExploreContainer: React.FC<ContainerProps> = ({ name }) => {
+export default function ExploreContainer({ name }: ContainerProps) {
   return (
     <div className="container">
       <strong>{name}</strong>
@@ -12,5 +12,3 @@ const ExploreContainer: React.FC<ContainerProps> = ({ name }) => {
     </div>
   );
 };
-
-export default ExploreContainer;
