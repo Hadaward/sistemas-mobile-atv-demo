@@ -29,6 +29,8 @@
   },
   "devDependencies": {
     "@capacitor/cli": "7.4.3",
+    "@eslint/eslintrc": "^3.3.1",
+    "@phoenix35/eslint-config": "^1.8.0",
     "@testing-library/dom": ">=7.21.4",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^16.2.0",
@@ -37,7 +39,7 @@
     "@types/react-dom": "19.0.4",
     "@vitejs/plugin-legacy": "^5.0.0",
     "@vitejs/plugin-react": "^4.0.1",
-    "cypress": "^13.5.0",
+    "cypress": "^13.15.2",
     "eslint": "^9.20.1",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^5.1.0",
@@ -47,7 +49,7 @@
     "terser": "^5.4.0",
     "typescript": "^5.1.6",
     "typescript-eslint": "^8.24.0",
-    "vite": "~5.2.0",
+    "vite": "^5.4.19",
     "vitest": "^0.34.6"
   },
   "overrides": {
