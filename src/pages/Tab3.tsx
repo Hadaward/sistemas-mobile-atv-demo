@@ -1,6 +1,6 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import ExploreContainer from '../components/ExploreContainer';
-import './Tab3.css';
+import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from "@ionic/react";
+import ExploreContainer from "../components/ExploreContainer";
+import "./Tab3.css";
 
 export default function Tab3 () {
   return (
@@ -20,4 +20,4 @@ export default function Tab3 () {
       </IonContent>
     </IonPage>
   );
-};
+}

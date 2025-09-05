@@ -1,6 +1,6 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import ExploreContainer from '../components/ExploreContainer';
-import './Tab1.css';
+import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from "@ionic/react";
+import TakePhotoContainer from "../components/TakePhotoContainer";
+import "./Tab1.css";
 
 export default function Tab1 () {
   return (
@@ -16,8 +16,8 @@ export default function Tab1 () {
             <IonTitle size="large">Tab 1</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <ExploreContainer name="Tab 1 page" />
+        <TakePhotoContainer />
       </IonContent>
     </IonPage>
   );
-};
+}

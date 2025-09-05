@@ -1,14 +1,12 @@
-import './ExploreContainer.css';
+import "./ExploreContainer.css";
 
-interface ContainerProps {
-  name: string;
-}
+interface ContainerProps {name: string;}
 
-export default function ExploreContainer({ name }: ContainerProps) {
+export default function ExploreContainer ({ name }: ContainerProps) {
   return (
     <div className="container">
       <strong>{name}</strong>
       <p>Explore <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
     </div>
   );
-};
+}
